@@ -5,9 +5,14 @@ function Navbar() {
   const navigate = useNavigate();
 
   return (
-    <div onClick={() => navigate("/contact")}>
-      <p>Contact</p>
-    </div>
+    <>
+      <div onClick={() => navigate("/")}>
+        <p>SYDNEY MIRANDA</p>
+      </div>
+      <div onClick={() => navigate("/contact")}>
+        <p>Contact</p>
+      </div>
+    </>
   );
 }
 

@@ -6,10 +6,11 @@ function App() {
   return (
     <>
       <Router>
+        <Navbar />
         <Routes>
+          <Route path="/" />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        <Navbar />
       </Router>
     </>
   );
